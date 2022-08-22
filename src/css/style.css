@@ -1,0 +1,101 @@
+html{
+    max-width: 1440px;
+    
+}
+body{
+    background-color: var(--Violet);
+    background-image: url(../images/bg-desktop.svg);
+    
+    
+   
+}
+
+.header img{
+    margin: 20px 30px; 
+    font-size: 10px;
+  }
+
+.conteudo{
+    display: flex;
+    position: relative;   
+}
+
+.conteudo img{
+    margin-left: 5px;
+    padding-left: 30px;
+    width: 100%;
+    max-width: 100%;
+   
+}
+
+.conteudo-texto .titulo,
+.conteudo .paragrafo{
+    color: #fff;
+    margin: 0 40px;
+} 
+
+.conteudo-texto{
+    margin-top: 40px; 
+}
+
+.conteudo-texto .titulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+ 
+}
+
+.conteudo-texto .paragrafo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 20px ;  
+
+    
+}
+.button{
+    margin: 40px;
+}
+.button .btn{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   background-color: white;
+   border-radius: 20px;
+   color: var(--Violet);
+   padding: 8px 30px;
+   
+   
+}
+
+.button .btn:hover{
+    background: var(--Soft-Magenta);
+    color: #fff;
+    transition: background .3s;
+ 
+}
+
+.footer{
+   display: flex;
+   justify-content: flex-end;
+   margin: auto ;
+   
+}
+.footer {
+    margin-right: 50px;
+}
+
+.footer .rede-social .fa-facebook,
+.footer .rede-social .fa-twitter,
+.footer .rede-social .fa-instagram{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    margin-top: -50px;
+}
+.attribution {
+        font-size: 11px;
+        text-align: center; }
+    .attribution a {
+         color: var(--attribution); 
+        }
+ 
