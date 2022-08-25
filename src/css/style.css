@@ -1,13 +1,14 @@
-html{
-    max-width: 1440px;
-    
-}
+
 body{
     background-color: var(--Violet);
     background-image: url(../images/bg-desktop.svg);
-    
-    
-   
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 100vh;
+  
 }
 
 .header img{
@@ -61,8 +62,9 @@ body{
    font-size: 15px;
    background-color: white;
    border-radius: 20px;
+   box-shadow: 1px 2px 5px black;
    color: var(--Violet);
-   padding: 8px 30px;
+   padding: 10px 40px;
    
    
 }
@@ -90,12 +92,16 @@ body{
     font-size: 30px;
     color: #fff;
     padding: 10px;
-    margin-top: -50px;
+    margin: -60px 10px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+   
 }
-.attribution {
-        font-size: 11px;
-        text-align: center; }
-    .attribution a {
-         color: var(--attribution); 
-        }
+.rede-social .fa-facebook:hover,
+.rede-social .fa-twitter:hover,
+.rede-social .fa-instagram:hover{
+    color: var(--Soft-Magenta);
+    border: 1px solid var(--Soft-Magenta);
+    transition: color .3s;
+}
  
